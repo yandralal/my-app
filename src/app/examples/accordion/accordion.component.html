@@ -1,0 +1,53 @@
+<div>
+  <accordion>
+    <accordion-item [isOpen]="true">
+      <h2 id="expandedByDefault" *accordionItemHeader>
+        <accordion-item-header>Expanded by default</accordion-item-header>
+      </h2>
+      <accordion-item-body *accordionItemBody
+        >Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
+        Aliquam eget maximus est, id dignissim quam.</accordion-item-body
+      >
+    </accordion-item>
+    <accordion-item [isOpen]="false">
+      <h2 id="collapsedByDefault" *accordionItemHeader>
+        <accordion-item-header>Collapsed by default</accordion-item-header>
+      </h2>
+      <accordion-item-body *accordionItemBody
+        >Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus,
+        varius pulvinar diam eros in elit. Pellentesque convallis laoreet
+        laoreet.</accordion-item-body
+      >
+    </accordion-item>
+    <accordion-item>
+      <h2 id="withImgAndTable" *accordionItemHeader>
+        <accordion-item-header>With image and table</accordion-item-header>
+      </h2>
+      <accordion-item-body *accordionItemBody>
+        <img
+          src="https://cdn.wolterskluwer.io/wk/fundamentals/2.x.x/logo/assets/large.svg"
+          alt="Wolters Kluwer logo"
+        />
+        <table>
+          <tbody>
+            <tr>
+              <td>cell 1</td>
+              <td>cell 2</td>
+              <td>cell 3</td>
+            </tr>
+            <tr>
+              <td>cell 4</td>
+              <td>cell 5</td>
+              <td>cell 6</td>
+            </tr>
+            <tr>
+              <td>cell 7</td>
+              <td>cell 8</td>
+              <td>cell 9</td>
+            </tr>
+          </tbody>
+        </table>
+      </accordion-item-body>
+    </accordion-item>
+  </accordion>
+</div>
